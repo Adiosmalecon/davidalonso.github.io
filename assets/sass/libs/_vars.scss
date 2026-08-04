@@ -33,6 +33,22 @@
 
 // Palette.
 	$palette: (
+		bg:					#a16869,
+		bg-alt:				darken(#a16869, 5),
+		fg:					rgba(255,255,255,0.55),
+		fg-bold:			#ffffff,
+		fg-light:			rgba(255,255,255,0.35),
+		border:				rgba(255,255,255,0.15),
+		border-bg:			rgba(255,255,255,0.05),
+		accent1:			#5b96c2,
+		accent1-alt:		darken(#5b96c2, 10),
+		accent2:			#b2a495,
+		accent2-alt:		darken(#b2a495, 10),
+		accent3:			#39576a,
+		accent3-alt:		darken(#39576a, 10)
+	);
+/*
+	$palette: (
 		bg:					#312450,
 		bg-alt:				darken(#312450, 5),
 		fg:					rgba(255,255,255,0.55),
@@ -47,3 +63,5 @@
 		accent3:			#b74e91,
 		accent3-alt:		darken(#b74e91, 10)
 	);
+
+*/
